@@ -149,7 +149,13 @@ public void setPhoneNumber(String phone){
         }
 public String getPhoneNumber()
       { 
-          return phoneNumber;
+           StringBuilder newPhone = new StringBuilder(phoneNumber);
+           StringBuilder newPhoneOne = newPhone.insert(0,"(");
+           newPhoneOne = newPhoneOne.insert(4, ")");
+           newPhoneOne = newPhoneOne.insert(5, " ");
+           newPhoneOne = newPhoneOne.insert(9, "-");
+           
+          return newPhoneOne.toString();
           }
 public String getEventNumber()
     {
