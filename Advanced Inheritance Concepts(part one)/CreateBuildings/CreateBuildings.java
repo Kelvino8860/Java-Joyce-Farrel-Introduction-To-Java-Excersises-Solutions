@@ -18,7 +18,6 @@ public class CreateBuildings
    public static void main(String[] args)
      {
          Scanner input = new Scanner(System.in);
-         Scanner inputString = new Scanner(System.in);
          double footage;
          int stories,bedrooms,baths,classrooms;
          String gradeLevel;
@@ -52,6 +51,7 @@ public class CreateBuildings
          stories = input.nextInt();
          System.out.print("Enter number of classrooms >>> ");
          classrooms = input.nextInt();
+          input.nextLine();
          System.out.print("Enter grade level >>> ");
          gradeLevel = inputString.nextLine();
          obj3.setFootage(footage);
