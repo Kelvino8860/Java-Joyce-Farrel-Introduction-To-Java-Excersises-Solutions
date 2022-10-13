@@ -53,7 +53,7 @@ public class CreateBuildings
          classrooms = input.nextInt();
           input.nextLine();
          System.out.print("Enter grade level >>> ");
-         gradeLevel = inputString.nextLine();
+         gradeLevel = input.nextLine();
          obj3.setFootage(footage);
          obj3.setStories(stories);
          obj3.setClassrooms(classrooms);
