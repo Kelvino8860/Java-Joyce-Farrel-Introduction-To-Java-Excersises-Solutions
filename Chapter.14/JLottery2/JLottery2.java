@@ -1,3 +1,11 @@
+
+/* 2. In Chapter 5, you created a lottery game application. Create a similar game using
+      check boxes. For this game, generate six random numbers, each between 0 and 30
+      inclusive. Allow the user to choose six check boxes to play the game. (Do not allow
+      the user to choose more than six boxes.) After the player has chosen six numbers,
+      display the randomly selected numbers, the player’s numbers, and the amount of
+      money the user has won, as follows:*/
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
