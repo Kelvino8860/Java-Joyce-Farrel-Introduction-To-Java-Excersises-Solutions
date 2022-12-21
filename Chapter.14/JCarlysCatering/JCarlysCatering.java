@@ -1,3 +1,15 @@
+
+/* 1. In previous chapters, you have created a number of programs for Carly’s Catering.
+      Now, create an interactive GUI program that allows the user to enter the number
+      of guests for an event into a text field; if the value entered is not numeric, set
+      the event price to 0. Also allow the user to choose one entree from a group of at
+      least four choices, up to two side dishes from a group of at least four choices, and
+      one dessert from a group of at least three choices. Display the cost of the event as
+      $35 per person; as the user continues to make selection changes, display
+      a list of the current items chosen. If a user attempts to choose more than two
+      side dishes, remove all the current side dish selections so that the user can start
+      over. Save the program as JCarlysCatering.java*/
+
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
