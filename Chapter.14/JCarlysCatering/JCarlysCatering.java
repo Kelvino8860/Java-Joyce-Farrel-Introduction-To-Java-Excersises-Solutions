@@ -90,18 +90,11 @@ public class JCarlysCatering extends JFrame implements ItemListener, ActionListe
       add(listItems);
 
       numGuests.addActionListener(this);
-      butterChicken.addItemListener(this);
-      grilledChicken.addItemListener(this);
-      palakPaneer.addItemListener(this);
-      roganJosh.addItemListener(this);
-      cabbage.addItemListener(this);
-      bakedBeans.addItemListener(this);
-      brocoli.addItemListener(this);
-      bakedPotatoes.addItemListener(this);
-      cookies.addItemListener(this);
-      biscuits.addItemListener(this);
-      puddings.addItemListener(this);
-
+      
+      for(int i = 0; i < compArray.length; ++i)
+      {
+          compArray[i].addItemListener(this);
+      }
       
   }
 
