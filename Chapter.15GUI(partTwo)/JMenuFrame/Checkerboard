@@ -1,0 +1,12 @@
+#! /usr/bin/bash
+echo "Enter file name"
+read fileName
+if [ $fileName ]; then
+   echo $(javac $fileName)
+   echo "Enter file name to run"
+   read nameFile
+   echo $(java $nameFile)
+else
+   echo "Unknown file"
+fi
+
