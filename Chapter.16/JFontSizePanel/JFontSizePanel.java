@@ -1,3 +1,7 @@
+/* 1. Write an application that extends JPanel and displays a phrase in every font size from
+      6 through 20. Save the file as JFontSizesPanel.java*/
+
+
 import javax.swing.*;
 import javax.swing.plaf.FontUIResource;
 
